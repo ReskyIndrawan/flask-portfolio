@@ -1,0 +1,62 @@
+{
+  "staffServiceEngineering": {
+    "name": "Staff Service Engineering",
+    "title": "Quality Control Inspection",
+    "years": "November 2024 - Present",
+    "job_desk": [
+      "Inspected raw materials and components.",
+      "Authored standardized inspection checklist.",
+      "Root cause investigation on critical defects and improving QC time."
+    ]
+  },
+  "KoyoSangyo": {
+    "name": "KoyoSangyo",
+    "title": "Heat Treatment Operator",
+    "years": "Juli 2022 - October 2024",
+    "job_desk": [
+      "Operated industrial heat treatment furnaces for achieving hardness and microstructure based on customer request.",
+      "Optimized thermal cycles, reducing scrap cost.",
+      "Maintain energy use to achieve the most efficient level of energy."
+    ]
+  },
+  "hirotec": {
+    "name": "Hirotec",
+    "title": "Quality Control Inspection",
+    "years": "Maret 2019 - Mei 2022",
+    "job_desk": [
+      "Conducted final inspection of automotive exhaust systems defect.",
+      "Performed leak tests, dimensional inspection, and micro-crack detection.",
+      "Documented inspection record for calculating and reporting performance production."
+    ]
+  },
+  "pertamina": {
+    "name": "Pertamina Geothermal Energy",
+    "title": "Quality Assurance",
+    "years": "April 2016 - February 2019",
+    "job_desk": [
+      "Managed geothermal steam quality for power generation.",
+      "Conducted field sampling and laboratory analysis.",
+      "Implement process adjustments that cut non-condensable gas level."
+    ]
+  },
+  "airSuryaRadiator": {
+    "name": "Air Surya Radiator",
+    "title": "Quality Control",
+    "years": "September 2015 - February 2016",
+    "job_desk": [
+      "Ensured water quality met ASTM and ASME standards for turbine protection.",
+      "Conducted chemical and mechanical inspections.",
+      "Authored water quality reports."
+    ]
+  },
+  "billyIndonesia": {
+    "name": "Billy Indonesia",
+    "title": "Quality Control",
+    "years": "Mei 2010 - February 2012",
+    "job_desk": [
+      "Conducted elemental analysis of nickel and carbon content from raw laterite ore.",
+      "Used titration, gravimetric, and spectroscopic methods to verify compliance with buyer specifications.",
+      "Collaborated with lab and logistic teams to ensure traceability and accuracy of mineral batches."
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Resky Indrawan",
+  "title": "Quality Control | Data Science Enthusiast",
+  "desc": "With over 10 years of hands-on experience in the energy, manufacturing, and mining industries, I have contributed to quality assurance and process optimization across geothermal power plants, automotive production lines, water treatment facilities, and nickel mining operations. My expertise spans inspection, heat treatment, steam quality control, and chemical analysis.",
+  "photo": "images/hero.jpg",
+  "hardskill": [
+    "Chemical Analyst",
+    "Gravimetri",
+    "Volumetri",
+    "Tracer Test",
+    "Three Dimensional Machine",
+    "Image Measuring Machine",
+    "Python",
+    "Data Visualization",
+    "SQL",
+    "Streamlit",
+    "Pandas"
+  ],
+  "softskill": [
+    "Problem Solving",
+    "Teamwork",
+    "Communication",
+    "Critical Thinking",
+    "Inovator"
+  ],
+  "email": "indrawanresky.tlg@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/resky-indrawan-957781280/ReskyIndrawan",
+  "github": "https://github.com/ReskyIndrawan"
+}

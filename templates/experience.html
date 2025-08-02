@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  <h1>Work Experience</h1>
+  <div class="work-experience">
+    {% for key, exp in work_experience.items() %}
+    <div class="work-card">
+      <h4>
+        {{ exp.name }}
+        <span style="font-weight: normal">— {{ exp.title }}</span>
+      </h4>
+      <div class="years">{{ exp.years }}</div>
+      <ul>
+        {% for job in exp.job_desk %}
+        <li>{{ job }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

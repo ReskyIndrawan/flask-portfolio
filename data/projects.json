@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Supplier Performance Dashboard for Anti-Vibration Table Manufacturing",
+    "desc": "The main objective of this project is to compare the performance of suppliers who provide key components for anti-vibration tables. Before assembly, each component undergoes an initial inspection based on the company's internal quality standards. By collecting and analyzing the number of components that pass or fail this inspection for each supplier",
+    "tech": [
+      "Python",
+      "Streamlit",
+      "Pandas",
+      "Numpy",
+      "Plotly-Express"
+    ],
+    "link": "https://staffservice-data-engineering.streamlit.app/"
+  },
+  {
+    "title": "Gas Consumption Data for Aluminium Heat Treatment",
+    "desc": "This dataset simulates daily gas consumption in an aluminium heat treatment industry, covering all major process steps for each batch over two years (Monday–Friday, working days only). The data is designed for analysis of gas usage, process efficiency, and operator performance, and can be used to identify opportunities for process optimization without compromising product quality.",
+    "tech": [
+      "Python",
+      "Streamlit",
+      "Pandas",
+      "Numpy",
+      "Plotly-Express"
+    ],
+    "link": "https://koyosangyo-data-engineering.streamlit.app/"
+  },
+  {
+    "title": "Exhaust Production & Defect Analytics Dashboard",
+    "desc": "This dashboard was developed to record and analyze the production and inspection results of exhaust products over a 5-year period. The dataset captures daily production data, including both Day and Night shifts, and inspection outcomes for three critical quality parameters: Leak Test, Dimensional Inspection, and Micro Crack Detection.",
+    "tech": [
+      "Python",
+      "Streamlit",
+      "Pandas",
+      "Numpy",
+      "Plotly-Express"
+    ],
+    "link": "https://hirotec-data-engineering.streamlit.app/"
+  }
+]

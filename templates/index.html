@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  <img
+    src="{{ url_for('static', filename=profile.photo) }}"
+    class="profile-img"
+    alt="Foto Profil" />
+  <h1>{{ profile.name }}</h1>
+  <h2>{{ profile.title }}</h2>
+  <div class="desc">{{ profile.desc }}</div>
+
+  <h3>Hardskill</h3>
+  <div class="skills">
+    {% for skill in profile.hardskill %}
+    <span class="badge">{{ skill }}</span>
+    {% endfor %}
+  </div>
+
+  <h3>Softskill</h3>
+  <div class="softskills">
+    {% for skill in profile.softskill %}
+    <span class="badge" style="background: #586e75">{{ skill }}</span>
+    {% endfor %}
+  </div>
+
+  <div class="contact" id="contact">
+    <div>📧 {{ profile.email }}</div>
+    <a href="{{ profile.linkedin }}" target="_blank">LinkedIn</a> |
+    <a href="{{ profile.github }}" target="_blank">GitHub</a>
+  </div>
+</div>
+{% endblock %}

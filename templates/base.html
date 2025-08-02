@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>
+      {% block title %}{{ profile.name if profile else 'Resky
+      Indrawan' }} - Portfolio{% endblock %}
+    </title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h3>Menu</h3>
+        <button class="close-btn" id="closeSidebar">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="{{ url_for('home') }}" class="nav-link">
+          <i class="fas fa-home"></i>
+          <span>Home</span>
+        </a>
+        <a href="{{ url_for('projects') }}" class="nav-link">
+          <i class="fas fa-project-diagram"></i>
+          <span>Projects</span>
+        </a>
+        <a href="{{ url_for('experience') }}" class="nav-link">
+          <i class="fas fa-briefcase"></i>
+          <span>Experience</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Main Content -->
+    <div class="main-content" id="mainContent">
+      <!-- Header dengan tombol menu -->
+      <header class="header">
+        <button class="menu-btn" id="menuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <h1>RI</h1>
+      </header>
+
+      <!-- Content Area -->
+      <div class="content">{% block content %}{% endblock %}</div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  </body>
+</html>

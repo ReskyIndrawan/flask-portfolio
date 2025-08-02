@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  <h1>My Projects</h1>
+
+  {% for project in projects %}
+  <div class="project-card">
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.desc }}</p>
+    <div class="tech-stack">
+      {% for tech in project.tech %}
+      <span class="tech-badge">{{ tech }}</span>
+      {% endfor %}
+    </div>
+    <a href="{{ project.link }}" target="_blank">View Project →</a>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
